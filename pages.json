@@ -1,0 +1,145 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/login/login"
+		}
+		,{
+			"path": "pages/index/index"
+		}
+	    ,{
+            "path" : "pages/data/data"
+        }
+		,{
+		    "path" : "pages/data/datainfo"
+		}
+        ,{
+            "path" : "pages/service/service"
+        }
+        ,{
+            "path" : "pages/my/my"
+        }
+        ,{
+            "path" : "pages/index/recharge"
+        }
+		,{
+		    "path" : "pages/index/withdrawal"
+		}
+		,{
+		    "path" : "pages/index/exchange"
+		}
+		,{
+		    "path" : "pages/index/exchangea"
+		}
+		,{
+		    "path" : "pages/index/exchangeu"
+		}
+		,{
+		    "path" : "pages/index/invitation"
+		}
+		,{
+		    "path" : "pages/index/mining"
+		}
+		,{
+		    "path" : "pages/index/miningdetails"
+		}
+		,{
+		    "path" : "pages/index/machine"
+		}
+		,{
+		    "path" : "pages/index/history"
+		}
+		,{
+		    "path" : "pages/index/income"
+		}
+		,{
+		    "path" : "pages/index/voucher"
+		}
+		,{
+		    "path" : "pages/index/pledgerecord"
+		}
+		,{
+		    "path" : "pages/index/assetslist"
+		}
+		,{
+		    "path" : "pages/my/modify"
+		}
+		,{
+		    "path" : "pages/my/newslist"
+		}
+		,{
+		    "path" : "pages/my/download"
+		}
+		,{
+		    "path" : "pages/my/mywallet"
+		}
+		,{
+		    "path" : "pages/my/accounts"
+		}
+		,{
+		    "path" : "pages/my/proposal"
+		}
+		,{
+		    "path" : "pages/my/team"
+		}
+		,{
+		    "path" : "pages/my/newsdetail"
+		}
+        ,{
+		    "path" : "pages/login/regist"
+		}
+		,{
+		    "path" : "pages/login/forget"
+		}
+        ,{
+            "path" : "pages/service/customer"
+        }
+        ,{
+            "path" : "pages/my/authentication"
+        }
+        ,{
+            "path" : "pages/trade/trade"
+        }
+		,{
+		    "path" : "pages/index/mininginfo"
+		}
+		,{
+		    "path" : "pages/my/feedbacklist"
+		}
+		,{
+		    "path" : "pages/my/feedbackdetail"
+		}
+		,{
+		    "path" : "pages/my/choice"
+		}
+		,{
+		    "path" : "pages/my/class"
+		}
+		,{
+		    "path" : "pages/my/level"
+		}
+		,{
+		    "path" : "pages/my/wallet"
+		}
+		,{
+		    "path" : "pages/my/addwallet"
+		}
+		,{
+		    "path" : "pages/my/plan"
+		}
+		,{
+		    "path" : "pages/my/report"
+		}
+		,{
+		    "path" : "pages/my/reportrecord"
+		}
+		,{
+		    "path" : "pages/my/legal"
+		}
+		,{
+		    "path" : "pages/my/chats"
+		}
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	}
+}

@@ -1,0 +1,235 @@
+/* Body设置 */
+/* #ifdef APP-PLUS */
+html{
+	min-height: 100vh;
+	padding-top: 128rpx;
+	box-sizing: border-box;
+}
+body{
+	padding-bottom: 100rpx;
+}
+/* #endif */
+
+/* #ifdef H5 */
+uni-page-body{
+	min-height: 100vh;
+	padding-top: 128rpx;
+	box-sizing: border-box;
+}
+/* #endif */
+
+image{
+	flex-shrink: 0;
+}
+
+/* 容器设置 */
+.container{
+	padding: 30rpx;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-between{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.form-wrap{
+	background-color: #262733;
+	box-shadow:0px 8px 8px 0px rgba(0,0,0,0.05);
+}
+.form-wrap-top{
+	height: 148rpx;
+	background: url('/static/images/icon19.png') bottom repeat-x;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30rpx;
+	&::before{
+		content: "";
+		display: block;
+		width: 40rpx;
+		height: 40rpx;
+		border-radius: 50%;
+		background-color: #191A23;
+		position: absolute;
+		left: -20rpx;
+		bottom: -20rpx;
+	}
+	&::after{
+		content: "";
+		display: block;
+		width: 40rpx;
+		height: 40rpx;
+		border-radius: 50%;
+		background-color: #191A23;
+		position: absolute;
+		right: -20rpx;
+		bottom: -20rpx;
+	}
+	.left{
+		color: #C4C4C9;
+		font-size: 28rpx;
+	}
+	.right{
+		color: #FFA404;
+		font-size: 56rpx;
+	}
+}
+.form-wrap-bot{
+	padding: 50rpx 30rpx 40rpx;
+	position: relative;
+	overflow: hidden;
+	&::before{
+		content: "";
+		display: block;
+		width: 40rpx;
+		height: 40rpx;
+		border-radius: 50%;
+		background-color: #191A23;
+		position: absolute;
+		top: -20rpx;
+		left: -20rpx;
+	}
+	&::after{
+		content: "";
+		display: block;
+		width: 40rpx;
+		height: 40rpx;
+		border-radius: 50%;
+		background-color: #191A23;
+		position: absolute;
+		top: -20rpx;
+		right: -20rpx;
+	}
+}
+
+/* form设置 */
+.form-label{
+	font-size: 28rpx;
+	color: #FFFFFF;
+	margin-bottom: 20rpx;
+}
+.form-item{
+	margin-bottom: 20rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	input{
+		height: 92rpx;
+		line-height: 92rpx;
+		background: none;
+		border-radius: 8rpx;
+		border: 1rpx solid #999999;
+		padding: 0 20rpx;
+		flex: 1;
+		color: #FFFFFF;
+	}
+	.input-placeholder{
+		color: #C5C6CA;
+		font-size: 28rpx;
+	}
+	label{
+		color: #C4C4C9;
+		font-size: 28rpx;
+		margin-right: 20rpx;
+	}
+	.password{
+		width: 60rpx;
+		height: 60rpx;
+		background: url(/static/images/icon16.png) no-repeat;
+		background-size: contain;
+		position: absolute; 
+		top: 20rpx;
+		right: 20rpx;
+		&.active{
+			background: url(/static/images/icon16_1.png) no-repeat;
+			background-size: contain;
+		}
+	}
+	.label-yzm{
+		height: 100rpx;
+		line-height: 100rpx;
+		position: absolute;
+		right: 20rpx;
+		font-size: 28rpx;
+		color: #FFA404;
+	}
+	.yzm{
+		padding-right: 170rpx;
+	}
+}
+.form-submit-wrap{
+	margin-top: 40rpx;
+}
+.form-submit{
+	height: 92rpx;
+	line-height: 92rpx;
+	font-size: 32rpx;
+	color: #262733;
+	text-align: center;
+	border-radius: 8rpx;
+}
+
+/* 线性渐变 */
+.gradient-blue{
+	background: linear-gradient(135deg, #93D8FE 0%, #5AB0FC 100%);
+	box-shadow:0px 8rpx 8rpx 0px rgba(0,0,0,0.1);
+}
+.gradient-green{
+	background: linear-gradient(135deg, #18F1C2 0%, #0BE091 100%, #0ADF8F 100%, #0BE091 100%);
+	box-shadow:0px 8rpx 8rpx 0px rgba(0,0,0,0.1);
+}
+.gradient-violet{
+	background:linear-gradient(135deg,rgba(135,189,250,1) 0%,rgba(140,47,238,1) 100%);
+	box-shadow:0px 8rpx 8rpx 0px rgba(0,0,0,0.1);
+}
+.gradient-purple{
+	background: linear-gradient(135deg, #A59BFB 0%, #6C62F5 100%);
+	box-shadow:0px 8rpx 8rpx 0px rgba(0,0,0,0.1);
+}
+.gradient-pink{
+	background: linear-gradient(135deg, #FED2E1 0%, #FCA6BF 100%);
+	box-shadow:0px 8rpx 8rpx 0px rgba(0,0,0,0.1);
+}
+.gradient-yellow{
+	background: linear-gradient(135deg, #FFD10A 0%, #FFA404 100%);
+	box-shadow:0px 8rpx 8rpx 0px rgba(0,0,0,0.1);
+}
+.gradient-red{
+	background-color: #D8575A;
+}
+
+/* 字体设置 */
+$fontZ: 72rpx;
+$fontA: 60rpx;
+$fontB: 56rpx;
+$fontC: 52rpx;
+$fontD: 48rpx;
+$fontE: 44rpx;
+$fontF: 40rpx;
+$fontG: 36rpx;
+$fontH: 32rpx;
+$fontI: 28rpx;
+$fontJ: 24rpx;
+$fontk: 20rpx;
+
+/* 颜色设置 */
+$colorA: #FFFFFF;
+$colorB: #C4C4C9;
+$colorC: #222636;
+$colorD: #666666;
+$colorE: #999999;
+$colorF: #0FABDA;
+$colorG: #33D38A;
+$colorH: #EDEDED;
+
