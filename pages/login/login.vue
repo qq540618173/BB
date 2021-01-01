@@ -3,7 +3,7 @@
 		<view class="login-wrap">
 			<view class="appname">
 				<image src="../../static/images/icon32.png"></image>
-				<text>链杉资本</text>
+				<!-- <text>链杉资本</text> -->
 			</view>
 			<view class="login-box">
 				<view class="login-box-top">
@@ -200,8 +200,8 @@ uni-page-body{
 			font-size: $fontG;
 			color: $colorH;
 			image{
-				width: 144rpx;
-				height: 144rpx;
+				width: 180rpx;
+				height: 210rpx;
 			}
 			text{
 				display: block;

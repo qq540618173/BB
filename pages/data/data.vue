@@ -5,7 +5,7 @@
 			<view class="swiper-title">
 				<text>{{i18n.data.d1}}</text>
 			</view>
-			<view class="data-wrap" :class="'data-wrap' + index" v-for="(item, index) in dataList" :key="index">
+			<view class="data-wrap" :class="'data-wrap' + index%3" v-for="(item, index) in dataList" :key="index">
 				<view class="data-title flex-between">
 					<text>{{item.year}}{{i18n.data.d2}}</text>
 					<!-- <text @tap="gotoPage(`datainfo?year=${item.year}`)">{{i18n.data.d3}}</text> -->

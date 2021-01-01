@@ -103,8 +103,8 @@
 				padding: 10rpx 0 32rpx;
 				border-bottom: 1rpx solid #444444;
 				image{
-					width: 108rpx;
-					height: 108rpx;
+					width: 180rpx;
+					height: 210rpx;
 					margin-bottom: 20rpx;
 				}
 				text{

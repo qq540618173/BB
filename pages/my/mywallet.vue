@@ -4,7 +4,7 @@
 		<view class="container">
 			<view class="mywallet-wrap">
 				<view class="mywallet-title">
-					<image class="top-img" src="../../static/images/icon14.png"></image>
+					<image class="top-img" src="../../static/images/icon32.png"></image>
 					<text>{{i18n.my.lang58}}</text>
 				</view>
 				<view class="address">

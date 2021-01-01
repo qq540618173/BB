@@ -178,9 +178,9 @@
 				if(!paypass) return false
 				let content = ""
 				if(detailsInfo){
-					content = "是否确定停止搬砖"
+					content = "是否确定停止挖矿"
 				} else {
-					content = "是否确定开始搬砖"
+					content = "是否确定开始挖矿"
 				}
 				uni.showModal({
 					content,
@@ -202,7 +202,7 @@
 						}
 					}).then(res => {
 						uni.showToast({
-							title: '已停止搬砖',
+							title: '已停止挖矿',
 							icon: 'none',
 						})
 						this.current = false
@@ -218,7 +218,7 @@
 						}
 					}).then(res => {
 						uni.showToast({
-							title: '搬砖成功',
+							title: '挖矿成功',
 							icon: 'none',
 						})
 						this.current = false

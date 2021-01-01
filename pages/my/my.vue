@@ -551,11 +551,11 @@ uni-page-body{
 			align-items: center;
 			margin-bottom: 60rpx;
 			.head-image{
-				width: 140rpx;
+				width: 120rpx;
 				height: 140rpx;
 				margin-right: 26rpx;
 				image{
-					width: 140rpx;
+					width: 120rpx;
 					height: 140rpx;
 				}
 			}
