@@ -67,7 +67,7 @@
 				})
 			},
 			gotoPage(url, coin){
-				if( coin == 'FIL' ){
+				if( coin == 'FIL' || coin == 'ETH' ){
 					uni.showToast({
 						title: '暂未开放',
 						icon: 'none'
