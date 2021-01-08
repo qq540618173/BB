@@ -316,9 +316,9 @@
 			margin-top: 70rpx;
 			margin-bottom: 32rpx;
 			.details-title{
-				width: 194rpx;
-				height: 42rpx;
-				background: url(../../static/images/icon94.png) no-repeat;
+				width: 154rpx;
+				height: 34rpx;
+				background: url(../../static/images/icon67.png) no-repeat;
 				background-size: contain;
 				position: relative;
 				&::after{
